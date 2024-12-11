@@ -1,0 +1,193 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3A24A4731145371E3343',
+    participant: undefined
+  },
+  messageTimestamp: 1733933144,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'discord',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'discord',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3A910419EFD754A7BEE4',
+    participant: undefined
+  },
+  messageTimestamp: 1733933183,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'hola',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'hola',
+  from: '573207072863'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
+  keyword: 'key_5dd14228-f5d8-4449-aac7-34e1227b2d72',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'bd5941b9725ab1ea9aa57e9c08e2dcf6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c1796783-702e-4b0b-a408-5ed2ed4713a9',
+  keyword: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'af4875e3efa94c7f0f11126bfe78d006'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3ADDAC7FB91A1413B73D',
+    participant: undefined
+  },
+  messageTimestamp: 1733933200,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'olé',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'olé',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3A489FA3F20799DDE1D1',
+    participant: undefined
+  },
+  messageTimestamp: 1733933206,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'ole',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'ole',
+  from: '573207072863'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
+  keyword: 'key_5dd14228-f5d8-4449-aac7-34e1227b2d72',
+  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'bd5941b9725ab1ea9aa57e9c08e2dcf6'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_c1796783-702e-4b0b-a408-5ed2ed4713a9',
+  keyword: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
+  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
+    '👉 *doc* para ver la documentación\n' +
+    '👉 *gracias*  para ver la lista de videos\n' +
+    '👉 *discord* unirte al discord',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object],
+      [Object], [Object]
+    ],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: 'af4875e3efa94c7f0f11126bfe78d006'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3A19263BC81C644CC9C6',
+    participant: undefined
+  },
+  messageTimestamp: 1733933211,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'alo',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'alo',
+  from: '573207072863'
+}
