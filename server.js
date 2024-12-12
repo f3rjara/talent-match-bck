@@ -1,8 +1,14 @@
 require("dotenv").config();
 const app = require("./src/app");
+const { startBot } = require("./src/bot/index");
 
-const PORT = process.env.PORT || 3000;
+const EXPRESS_PORT = process.env.EXPRESS_PORT || 3000; // Puerto para Express
+const BOT_PORT = process.env.BOT_PORT || 3001; // Puerto para el Bot
 
-app.listen(PORT, () => {
-  console.log(`Server is running on http://localhost:${PORT}`);
+// Iniciar servidor de Express
+app.listen(EXPRESS_PORT, () => {
+  console.log(`API corriendo en http://localhost:${EXPRESS_PORT}`);
 });
+
+// Iniciar el Bot en otro puerto
+startBot(BOT_PORT);

@@ -1,8 +1,56 @@
 [
   {
-    "ref": "ans_eaae3825-496d-4dd2-928e-355c8b358c33",
-    "keyword": "key_5dd14228-f5d8-4449-aac7-34e1227b2d72",
-    "answer": "🙌 Hola bienvenido a este *Chatbot*",
+    "ref": "f584c1ea-5729-405d-be1b-24ac5338ce75",
+    "keyword": "421c08502de3f64f6fcc55335d14cd51",
+    "answer": "hi",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "b9f08dbc00040d9b893d083665163cb0"
+  },
+  {
+    "ref": "ans_8877eb28-1194-4372-9b1f-4dcd0f7e4dd2",
+    "keyword": "key_31dca62f-6865-48f9-ba8c-80b5684d7c04",
+    "answer": "👋",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "a35188ce2f9cdd7ccca738f76e597dde",
+    "from": "573207072863"
+  },
+  {
+    "ref": "e2977efd-9a1f-43ee-a97f-f02004e2039f",
+    "keyword": null,
+    "answer": "Estimado(a) candidato(a), bienvenido(a) al proceso de selección para el cargo de [Nombre del Cargo] en [Nombre de la Empresa].  Para comenzar, por favor escribe la palabra 'Iniciar'.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "3d651f3a2bf62832b8ff45add301c6df"
+  },
+  {
+    "ref": "4fe4e38b-b88d-41d7-b755-7ddcb6407f94",
+    "keyword": "a35188ce2f9cdd7ccca738f76e597dde",
+    "answer": "iniciar",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "00a56bef788d4faa58d3fa87e7f912c6"
+  },
+  {
+    "ref": "ans_702ac5e7-1d93-4e68-bae7-88f1460156cb",
+    "keyword": "key_9fe91c06-f3a8-4ff2-9bb7-5b7f2a7c7b65",
+    "answer": "¡Perfecto! Vamos a comenzar con la creación de tu CV.",
     "options": {
       "media": null,
       "buttons": [],
@@ -15,13 +63,13 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "bd5941b9725ab1ea9aa57e9c08e2dcf6",
+    "refSerialize": "ed8cac3c251b7b6e4647f1b97db938eb",
     "from": "573207072863"
   },
   {
-    "ref": "ans_c1796783-702e-4b0b-a408-5ed2ed4713a9",
-    "keyword": "ans_eaae3825-496d-4dd2-928e-355c8b358c33",
-    "answer": "te comparto los siguientes links de interes sobre el proyecto\n👉 *doc* para ver la documentación\n👉 *gracias*  para ver la lista de videos\n👉 *discord* unirte al discord",
+    "ref": "ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d",
+    "keyword": "ans_702ac5e7-1d93-4e68-bae7-88f1460156cb",
+    "answer": "__call_action__",
     "options": {
       "media": null,
       "buttons": [],
@@ -30,278 +78,57 @@
       "delay": 0,
       "idle": null,
       "ref": null,
-      "nested": [
-        {
-          "ref": "key_72df05e5-7d3e-42ff-9daf-2c486e3bf481",
-          "keyword": [
-            "doc",
-            "documentacion",
-            "documentación"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "f15c5b8220075276f0a11610f81f298f"
-        },
-        {
-          "ref": "ans_f6b2c1f3-ec19-4d32-9728-e876bcbe655d",
-          "keyword": "key_72df05e5-7d3e-42ff-9daf-2c486e3bf481",
-          "answer": "📄 Aquí encontras las documentación recuerda que puedes mejorarla\nhttps://bot-whatsapp.netlify.app/\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "4583cf3b8c3c2e7fd7eae603b201ded8"
-        },
-        {
-          "ref": "key_9a034a1e-7c0b-44f2-b46b-467a88625687",
-          "keyword": [
-            "gracias",
-            "grac"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "1fe6b9002925caf13f444479e73d4434"
-        },
-        {
-          "ref": "ans_a18a451c-9cbd-482d-87aa-a88ef65123dc",
-          "keyword": "key_9a034a1e-7c0b-44f2-b46b-467a88625687",
-          "answer": "🚀 Puedes aportar tu granito de arena a este proyecto\n[*opencollective*] https://opencollective.com/bot-whatsapp\n[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez\n[*patreon*] https://www.patreon.com/leifermendez\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "8db84b177e4269531ba80e64b528d537"
-        },
-        {
-          "ref": "key_25ea9d04-0cba-4761-a89b-67b914df2917",
-          "keyword": [
-            "tutorial",
-            "tuto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "5155dd58eba463ddd0effa966e7db620"
-        },
-        {
-          "ref": "ans_b4fd1a3a-07b3-4a1b-84b5-13bd5b3d5f76",
-          "keyword": "key_25ea9d04-0cba-4761-a89b-67b914df2917",
-          "answer": "🙌 Aquí encontras un ejemplo rapido\nhttps://bot-whatsapp.netlify.app/docs/example/\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "d44a4206aeb761ed73960c72e094f0d0"
-        },
-        {
-          "ref": "key_e23697d2-3dea-4c08-bd49-fe3fe00f2182",
-          "keyword": [
-            "discord"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "be744c19342592b913373a1f8728649c"
-        },
-        {
-          "ref": "ans_9a87e841-4bfb-4e46-b037-cf3ea10e6111",
-          "keyword": "key_e23697d2-3dea-4c08-bd49-fe3fe00f2182",
-          "answer": "🤪 Únete al discord\nhttps://link.codigoencasa.com/DISCORD\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "79ba72f3b7b505ac1b0488ac53d380ce"
-        }
-      ],
+      "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "af4875e3efa94c7f0f11126bfe78d006",
+    "refSerialize": "2541a901c1608d751f7e6db4f9f4fc71",
     "from": "573207072863"
   },
   {
-    "ref": "7eb21efb-9c9c-49ca-8e2a-3bd95c7eb8f9",
-    "keyword": "af4875e3efa94c7f0f11126bfe78d006",
-    "answer": "olé",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "f2220cd57c8478a890bba25588ed22f5"
+    "ref": "ans_11a4d984-152d-4b75-9b31-616177e32015",
+    "keyword": "ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7ef64b66074ff86f029dd8c822e7bb30",
+    "from": "573207072863"
   },
   {
-    "ref": "1485d2ec-e2c7-47b4-9402-70363b733070",
-    "keyword": "f2220cd57c8478a890bba25588ed22f5",
-    "answer": "ole",
-    "options": {},
+    "ref": "df3541a0-42a4-48b9-a1f2-339222cba853",
+    "keyword": null,
+    "answer": "Estimado(a) candidato(a), para continuar con su proceso de selección en Empresa X, por favor, proporcione la siguiente información.  Todos los campos son obligatorios:\n\n* **Nombres completos:**\n* **Apellidos completos:**\n* **Dirección de residencia:**\n* **Teléfono celular o WhatsApp:**\n* **Correo electrónico:**\n* **Número de documento de identidad (Cédula de ciudadanía colombiana):**\n\nUna vez que nos proporcione esta información, procederemos con el siguiente paso del proceso. Gracias por su colaboración.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
     "from": "573207072863",
-    "refSerialize": "db60e57ff41fe340261e070cda1f080b"
+    "refSerialize": "7a51c96a05065ad053e31aba1a401b17"
   },
   {
-    "ref": "ans_eaae3825-496d-4dd2-928e-355c8b358c33",
-    "keyword": "key_5dd14228-f5d8-4449-aac7-34e1227b2d72",
-    "answer": "🙌 Hola bienvenido a este *Chatbot*",
+    "ref": "49028359-0a99-4db8-a2b9-30551181da9a",
+    "keyword": "7ef64b66074ff86f029dd8c822e7bb30",
+    "answer": "Mi nombre es Luis Fernando Jaramillo Aretaga,  tengo 30 años vivo en la ciudad de Pasto en calle 5a de Mijtayo. mi teléfono es +57 (320) 707-2863 y mi correo es f3rjara@gmail.com soy desarrollador Frontend. y mi cedula es 108525552222",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "de559e2797f5f51e8ad4572848c97445"
+  },
+  {
+    "ref": "ans_6cc8a09f-8c8e-4c45-9a55-34c60beed28a",
+    "keyword": "key_67fa567c-9170-424c-8e69-23dfd9981d51",
+    "answer": "¡Perfecto! Vamos a continuar con una pequeña presentación.",
     "options": {
       "media": null,
       "buttons": [],
@@ -314,13 +141,13 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "bd5941b9725ab1ea9aa57e9c08e2dcf6",
+    "refSerialize": "72739d33c75dfaeb24c037d796e4fdd9",
     "from": "573207072863"
   },
   {
-    "ref": "ans_c1796783-702e-4b0b-a408-5ed2ed4713a9",
-    "keyword": "ans_eaae3825-496d-4dd2-928e-355c8b358c33",
-    "answer": "te comparto los siguientes links de interes sobre el proyecto\n👉 *doc* para ver la documentación\n👉 *gracias*  para ver la lista de videos\n👉 *discord* unirte al discord",
+    "ref": "ans_924e6f9b-c0a8-4733-84ce-921986b888aa",
+    "keyword": "ans_6cc8a09f-8c8e-4c45-9a55-34c60beed28a",
+    "answer": "__call_action__",
     "options": {
       "media": null,
       "buttons": [],
@@ -329,264 +156,350 @@
       "delay": 0,
       "idle": null,
       "ref": null,
-      "nested": [
-        {
-          "ref": "key_72df05e5-7d3e-42ff-9daf-2c486e3bf481",
-          "keyword": [
-            "doc",
-            "documentacion",
-            "documentación"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "f15c5b8220075276f0a11610f81f298f"
-        },
-        {
-          "ref": "ans_f6b2c1f3-ec19-4d32-9728-e876bcbe655d",
-          "keyword": "key_72df05e5-7d3e-42ff-9daf-2c486e3bf481",
-          "answer": "📄 Aquí encontras las documentación recuerda que puedes mejorarla\nhttps://bot-whatsapp.netlify.app/\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "4583cf3b8c3c2e7fd7eae603b201ded8"
-        },
-        {
-          "ref": "key_9a034a1e-7c0b-44f2-b46b-467a88625687",
-          "keyword": [
-            "gracias",
-            "grac"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "1fe6b9002925caf13f444479e73d4434"
-        },
-        {
-          "ref": "ans_a18a451c-9cbd-482d-87aa-a88ef65123dc",
-          "keyword": "key_9a034a1e-7c0b-44f2-b46b-467a88625687",
-          "answer": "🚀 Puedes aportar tu granito de arena a este proyecto\n[*opencollective*] https://opencollective.com/bot-whatsapp\n[*buymeacoffee*] https://www.buymeacoffee.com/leifermendez\n[*patreon*] https://www.patreon.com/leifermendez\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "8db84b177e4269531ba80e64b528d537"
-        },
-        {
-          "ref": "key_25ea9d04-0cba-4761-a89b-67b914df2917",
-          "keyword": [
-            "tutorial",
-            "tuto"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "5155dd58eba463ddd0effa966e7db620"
-        },
-        {
-          "ref": "ans_b4fd1a3a-07b3-4a1b-84b5-13bd5b3d5f76",
-          "keyword": "key_25ea9d04-0cba-4761-a89b-67b914df2917",
-          "answer": "🙌 Aquí encontras un ejemplo rapido\nhttps://bot-whatsapp.netlify.app/docs/example/\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "d44a4206aeb761ed73960c72e094f0d0"
-        },
-        {
-          "ref": "key_e23697d2-3dea-4c08-bd49-fe3fe00f2182",
-          "keyword": [
-            "discord"
-          ],
-          "options": {
-            "sensitive": false,
-            "regex": false
-          },
-          "refSerialize": "be744c19342592b913373a1f8728649c"
-        },
-        {
-          "ref": "ans_9a87e841-4bfb-4e46-b037-cf3ea10e6111",
-          "keyword": "key_e23697d2-3dea-4c08-bd49-fe3fe00f2182",
-          "answer": "🤪 Únete al discord\nhttps://link.codigoencasa.com/DISCORD\n\n*2* Para siguiente paso.",
-          "options": {
-            "media": null,
-            "buttons": [],
-            "capture": false,
-            "child": null,
-            "delay": 0,
-            "idle": null,
-            "ref": null,
-            "nested": [
-              {
-                "ref": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "keyword": [
-                  "2",
-                  "siguiente"
-                ],
-                "options": {
-                  "sensitive": false,
-                  "regex": false
-                },
-                "refSerialize": "dbd7d4c0cf9448a3bda6293a6665acae"
-              },
-              {
-                "ref": "ans_12875c32-ff0e-4142-972c-104021857144",
-                "keyword": "key_0718f374-7600-4ce2-ba61-39a265ba529f",
-                "answer": "📄 Aquí tenemos el flujo secundario",
-                "options": {
-                  "media": null,
-                  "buttons": [],
-                  "capture": false,
-                  "child": null,
-                  "delay": 0,
-                  "idle": null,
-                  "ref": null,
-                  "nested": [],
-                  "keyword": {},
-                  "callback": false
-                },
-                "refSerialize": "3786873207e1427a54a9a5c5e3b1de5e"
-              }
-            ],
-            "keyword": {},
-            "callback": false
-          },
-          "refSerialize": "79ba72f3b7b505ac1b0488ac53d380ce"
-        }
-      ],
+      "nested": [],
       "keyword": {},
-      "callback": false
+      "callback": true
     },
-    "refSerialize": "af4875e3efa94c7f0f11126bfe78d006",
+    "refSerialize": "07783eaddb98fd9b702f7b4970ca33be",
     "from": "573207072863"
   },
   {
-    "ref": "7485b1bd-d9ce-40ac-accb-c546cb8c62f2",
-    "keyword": "af4875e3efa94c7f0f11126bfe78d006",
-    "answer": "alo",
+    "ref": "ans_d4869f51-849b-45da-8d60-e6445b415866",
+    "keyword": "ans_924e6f9b-c0a8-4733-84ce-921986b888aa",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e9ed3f9a2113a2e88a64837c0ea6c406",
+    "from": "573207072863"
+  },
+  {
+    "ref": "cef2d4ea-c22f-420f-8fba-cdb015273b12",
+    "keyword": null,
+    "answer": "Estimado Luis Fernando, gracias por tu información.  Para confirmar, he registrado tus datos. Si hay alguna modificación por favor házmelo saber.  Continuemos con el proceso.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "47e415db695f4a8c7eac44e4fdfdab03"
+  },
+  {
+    "ref": "c90a5a59-96e3-455c-9c50-1bb298dff449",
+    "keyword": null,
+    "answer": "Hola [Nombre del candidato], bienvenido al proceso de selección de Empresa X. Para comenzar, por favor, comparte un resumen profesional con nosotros.  Describe brevemente tu experiencia laboral, habilidades más relevantes y algunos de tus logros más destacados.  Esto nos ayudará a conocerte mejor.  No te preocupes, puedes ser conciso.  Estamos aquí para ayudarte en todo el proceso.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "9ce3ffba57ad0cc3dd5a66ed5f4c53e9"
+  },
+  {
+    "ref": "a0543c69-1354-418b-9e85-11e61df24062",
+    "keyword": "e9ed3f9a2113a2e88a64837c0ea6c406",
+    "answer": "Tengo más de 5 años de experiencia en desarrollo web, enfocándome principalmente en el uso de Angular para construir aplicaciones frontend robustas y escalables. He trabajado en proyectos diversos que van desde pequeñas startups hasta grandes corporaciones, siempre aportando soluciones innovadoras y eficientes.",
     "options": {},
     "from": "573207072863",
-    "refSerialize": "3902f222a62ee6bef99e7305411102ce"
+    "refSerialize": "468ebddbaf30fa8b66472de96683c832"
+  },
+  {
+    "ref": "ea28086d-0c0f-4f09-a8a7-91d0d620b2d7",
+    "keyword": null,
+    "answer": "Gracias por tu respuesta.  Tu experiencia en desarrollo web con Angular es muy valiosa.  Revisaré con detalle tu perfil y te contactaré pronto para avanzar en el proceso.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "10eb0c79b53cc6e53f85b8b2d598c838"
+  },
+  {
+    "ref": "ans_ef7cc4b6-34de-4a79-a181-b5fbda3da19b",
+    "keyword": "key_3ae3140b-a1c9-4a81-89e6-ae2195213dea",
+    "answer": "¡Perfecto! Vamos a continuar con tu experiencia.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4b84ef15b4ee7e978c5cff7030f7dd9d",
+    "from": "573207072863"
+  },
+  {
+    "ref": "ans_87f60ebb-b0a3-459e-bf88-a27d0a836bb7",
+    "keyword": "ans_ef7cc4b6-34de-4a79-a181-b5fbda3da19b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "4d3acde918b88c223a926b4b3d73527c",
+    "from": "573207072863"
+  },
+  {
+    "ref": "ans_ab6fc6fa-53f3-4533-b65f-8ab9399313be",
+    "keyword": "ans_87f60ebb-b0a3-459e-bf88-a27d0a836bb7",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "0881623fe848c0c7ce36333744f72635",
+    "from": "573207072863"
+  },
+  {
+    "ref": "df3d863f-84e9-4fc9-ab9d-a2e6f1c1fc13",
+    "keyword": null,
+    "answer": "Hola [Nombre del candidato], bienvenido.  Para completar tu solicitud, necesitamos información sobre tu experiencia laboral.  Por favor, comienza proporcionando los datos de tu último empleo. Necesito lo siguiente:\n\n1. **Título del puesto:** (ej. Gerente de Marketing)\n2. **Nombre de la empresa:** (ej. Empresa Alfa S.A.)\n3. **Fechas de inicio y finalización:** (ej. 01/01/2020 - 31/12/2022)\n4. **Descripción de responsabilidades:** (ej.  Gestionar el presupuesto de marketing, dirigir equipo de 5 personas, etc.)\n5. **Logros:** (ej. Aumento del 15% en las ventas, lanzamiento exitoso de nueva campaña, etc.)\n\nUna vez que me proporciones esta información, procederemos con el siguiente paso.  No dudes en preguntarme si tienes alguna duda.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "d3eaa45f217a466036940d5a5dcaa4f1"
+  },
+  {
+    "ref": "24c15dd2-f4da-407d-af73-85cf4b6b2fa1",
+    "keyword": "0881623fe848c0c7ce36333744f72635",
+    "answer": "Título del puesto: Desarrollador Frontend Senior\nNombre de la empresa: Tech Innovators Inc.\nFechas de inicio y finalización: 06/2021 - 11/2023\nDescripción de responsabilidades:\nLideré un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando Angular.\n\nTítulo del puesto: Desarrollador Frontend para PlayTic\nNombre de la empresa: PlayTIc Inc.\nFechas de inicio y finalización: 06/2024 - 11/2024\nDescripción de responsabilidades:\nLideré Y Gestione un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando PHP.",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "421c08502de3f64f6fcc55335d14cd51"
+  },
+  {
+    "ref": "ans_0a233a9f-1ccb-454c-b0e3-14cfa4e0755d",
+    "keyword": "key_5f929ab8-bf77-4257-b867-01dd95a0e5c3",
+    "answer": "¡Perfecto! Vamos a continuar con tu formación académica.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "883bad501afc6234fae9a74520e67b60",
+    "from": "573207072863"
+  },
+  {
+    "ref": "03510126-c318-4dd4-a153-68025ffe18aa",
+    "keyword": null,
+    "answer": "Estimado(a) [Nombre del candidato], gracias por la información proporcionada.  He revisado cuidadosamente sus respuestas y para asegurarme de que comprendo correctamente su experiencia, la he organizado de la siguiente manera. Por favor, revísela y confirme si es correcta. Si hay alguna modificación o adición, por favor hágamelo saber.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "99f77f4c31ac406ff169094d68692be4"
+  },
+  {
+    "ref": "ans_236fb681-b619-41be-8ce7-6a99600b243b",
+    "keyword": "ans_0a233a9f-1ccb-454c-b0e3-14cfa4e0755d",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "2895120053b48f815ab83a52f41587fd",
+    "from": "573207072863"
+  },
+  {
+    "ref": "ans_e12b4002-e4be-4f9c-af82-c2c488c1f205",
+    "keyword": "ans_236fb681-b619-41be-8ce7-6a99600b243b",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "689d7fac820738c3e1af1db0be799ac5",
+    "from": "573207072863"
+  },
+  {
+    "ref": "a466417d-b379-4e7f-9e32-1d5178fda2d5",
+    "keyword": null,
+    "answer": "Hola [Nombre del candidato], bienvenido.  Para continuar con tu registro, por favor, proporciona la siguiente información sobre tu educación.  Necesitaré el Título obtenido, el Nombre de la institución educativa donde lo cursaste, las Fechas de finalización (mes/año) y el Estado (finalizado o en curso).  Puedes responder en este mismo formato: Título: [Título], Institución: [Nombre de la institución], Fechas: [Mes/Año inicio] - [Mes/Año fin], Estado: [Finalizado/En curso].  Si tienes más de un título, por favor, proporciona la información de cada uno por separado.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "a3a90a4594151daf5d4675f732b07ef0"
+  },
+  {
+    "ref": "9b3fe27f-d318-4323-8096-043c3e066bd8",
+    "keyword": "689d7fac820738c3e1af1db0be799ac5",
+    "answer": "Título obtenido: Licenciatura en Ingeniería en Sistemas\n\nNombre de la institución educativa: Universidad de Nariño\nFecha de finalización: 12/2018\nEstado: Finalizado\nTítulo obtenido: Maestría en Ciencias de la Computación\n\nNombre de la institución educativa: Universidad de los Andes\nFecha de finalización: 06/2021\nEstado: Finalizado",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "03515ce19a06b67d65323a9ac6e7c066"
+  },
+  {
+    "ref": "e61b9524-be6e-4141-bbd0-a56046214067",
+    "keyword": null,
+    "answer": "Gracias por la información proporcionada sobre su educación.  He registrado sus datos académicos en nuestro sistema. Si requiere alguna aclaración, no dude en consultarme.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "38cb65a946e2c2bb69be5e969409fb86"
+  },
+  {
+    "ref": "ans_8b685a13-6748-4c79-bba5-4552e0b72cc4",
+    "keyword": "key_574fb77a-73df-450f-8c94-4e4394b3c3ea",
+    "answer": "¡Perfecto! Vamos a continuar con tus habilidades.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "635656dad9f59f2074fb1a9399f64938",
+    "from": "573207072863"
+  },
+  {
+    "ref": "ans_65c8eba1-0d7a-43ec-b4d4-18224b23eaa5",
+    "keyword": "ans_8b685a13-6748-4c79-bba5-4552e0b72cc4",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "66d28e1f724f7d2659e6412fedcf008e",
+    "from": "573207072863"
+  },
+  {
+    "ref": "ans_80450862-804f-4a3a-bed4-6f0295c022de",
+    "keyword": "ans_65c8eba1-0d7a-43ec-b4d4-18224b23eaa5",
+    "answer": "__capture_only_intended__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "ref": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "5d0927b3dfd8d6ee8bc4ba845dd26845",
+    "from": "573207072863"
+  },
+  {
+    "ref": "dfa3c842-47e8-4559-b6d6-e9676e7351f4",
+    "keyword": null,
+    "answer": "Hola [Nombre del candidato], bienvenido. Para continuar con tu proceso de selección, necesito que me proporciones información sobre tus habilidades. Por favor, indica las siguientes tres áreas:\n\n1. **Habilidades técnicas:**  (ej. Programación en Java, Análisis de datos, Diseño gráfico, etc.)\n2. **Habilidades blandas:** (ej. Trabajo en equipo, Comunicación efectiva, Resolución de problemas, etc.)\n3. **Idiomas:** (ej. Inglés (nivel avanzado), Español (nativo), Francés (intermedio), etc. Indica el idioma y tu nivel de dominio).",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "487fc900d8c851b185367e5fcd3475a4"
+  },
+  {
+    "ref": "c2692be2-2b4f-4189-ab19-d63d434fa78f",
+    "keyword": "5d0927b3dfd8d6ee8bc4ba845dd26845",
+    "answer": "mis habilidades en las siguientes tres categorías:\n\nHabilidades Técnicas:\n\nProgramación en Angular y TypeScript\nDesarrollo de aplicaciones web progresivas (PWA)\nDiseño y desarrollo de API RESTful con Node.js y Express\n\nHabilidades Blandas:\n\nTrabajo en equipo\nComunicación efectiva\nResolución de problemas\nLiderazgo\n\nIdiomas:\n\nEspañol (nativo)\nInglés (fluido)\nFrancés (intermedio)",
+    "options": {},
+    "from": "573207072863",
+    "refSerialize": "0cbcb67110c7b1d7128144b222c5e551"
+  },
+  {
+    "ref": "bd16a64a-bb50-45fb-aaa7-64ce0ef516ac",
+    "keyword": null,
+    "answer": "Gracias por tu respuesta. Tu información ha sido recibida y se encuentra siendo procesada.  Continuaremos con el proceso de selección.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "573207072863",
+    "refSerialize": "ba2cdb0644851efea0f6effa4fef82e1"
   }
 ]

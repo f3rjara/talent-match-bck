@@ -2,48 +2,66 @@
   key: {
     remoteJid: '573207072863@s.whatsapp.net',
     fromMe: false,
-    id: '3A24A4731145371E3343',
+    id: '3EB02BEEC9267214E7E3D3',
     participant: undefined
   },
-  messageTimestamp: 1733933144,
+  messageTimestamp: 1733988823,
   pushName: 'Fernando Jaramillo',
   broadcast: false,
   message: Message {
-    conversation: 'discord',
+    conversation: 'hi',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'discord',
+  body: 'hi',
   from: '573207072863'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_8877eb28-1194-4372-9b1f-4dcd0f7e4dd2',
+  keyword: 'key_31dca62f-6865-48f9-ba8c-80b5684d7c04',
+  answer: '👋',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    ref: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: 'a35188ce2f9cdd7ccca738f76e597dde'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573207072863@s.whatsapp.net',
     fromMe: false,
-    id: '3A910419EFD754A7BEE4',
+    id: '3EB09388E27A133018C2F7',
     participant: undefined
   },
-  messageTimestamp: 1733933183,
+  messageTimestamp: 1733988831,
   pushName: 'Fernando Jaramillo',
   broadcast: false,
   message: Message {
-    conversation: 'hola',
+    conversation: 'iniciar',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'hola',
+  body: 'iniciar',
   from: '573207072863'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
-  keyword: 'key_5dd14228-f5d8-4449-aac7-34e1227b2d72',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  ref: 'ans_702ac5e7-1d93-4e68-bae7-88f1460156cb',
+  keyword: 'key_9fe91c06-f3a8-4ff2-9bb7-5b7f2a7c7b65',
+  answer: '¡Perfecto! Vamos a comenzar con la creación de tu CV.',
   options: {
     media: null,
     buttons: [],
@@ -56,80 +74,12 @@
     keyword: {},
     callback: false
   },
-  refSerialize: 'bd5941b9725ab1ea9aa57e9c08e2dcf6'
+  refSerialize: 'ed8cac3c251b7b6e4647f1b97db938eb'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c1796783-702e-4b0b-a408-5ed2ed4713a9',
-  keyword: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord',
-  options: {
-    media: null,
-    buttons: [],
-    capture: false,
-    child: null,
-    delay: 0,
-    idle: null,
-    ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
-    keyword: {},
-    callback: false
-  },
-  refSerialize: 'af4875e3efa94c7f0f11126bfe78d006'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573207072863@s.whatsapp.net',
-    fromMe: false,
-    id: '3ADDAC7FB91A1413B73D',
-    participant: undefined
-  },
-  messageTimestamp: 1733933200,
-  pushName: 'Fernando Jaramillo',
-  broadcast: false,
-  message: Message {
-    conversation: 'olé',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'olé',
-  from: '573207072863'
-}
-[handleMsg]:  {
-  key: {
-    remoteJid: '573207072863@s.whatsapp.net',
-    fromMe: false,
-    id: '3A489FA3F20799DDE1D1',
-    participant: undefined
-  },
-  messageTimestamp: 1733933206,
-  pushName: 'Fernando Jaramillo',
-  broadcast: false,
-  message: Message {
-    conversation: 'ole',
-    messageContextInfo: MessageContextInfo {
-      deviceListMetadata: [DeviceListMetadata],
-      deviceListMetadataVersion: 2,
-      messageSecret: [Uint8Array]
-    }
-  },
-  body: 'ole',
-  from: '573207072863'
-}
-[QUEUE_SE_ENVIO]:  {
-  ref: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
-  keyword: 'key_5dd14228-f5d8-4449-aac7-34e1227b2d72',
-  answer: '🙌 Hola bienvenido a este *Chatbot*',
+  ref: 'ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d',
+  keyword: 'ans_702ac5e7-1d93-4e68-bae7-88f1460156cb',
+  answer: '__call_action__',
   options: {
     media: null,
     buttons: [],
@@ -140,54 +90,206 @@
     ref: null,
     nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: 'bd5941b9725ab1ea9aa57e9c08e2dcf6'
+  refSerialize: '2541a901c1608d751f7e6db4f9f4fc71'
 }
 [QUEUE_SE_ENVIO]:  {
-  ref: 'ans_c1796783-702e-4b0b-a408-5ed2ed4713a9',
-  keyword: 'ans_eaae3825-496d-4dd2-928e-355c8b358c33',
-  answer: 'te comparto los siguientes links de interes sobre el proyecto\n' +
-    '👉 *doc* para ver la documentación\n' +
-    '👉 *gracias*  para ver la lista de videos\n' +
-    '👉 *discord* unirte al discord',
+  ref: 'ans_11a4d984-152d-4b75-9b31-616177e32015',
+  keyword: 'ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d',
+  answer: '__capture_only_intended__',
   options: {
     media: null,
     buttons: [],
-    capture: false,
+    capture: true,
     child: null,
     delay: 0,
     idle: null,
     ref: null,
-    nested: [
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object],
-      [Object], [Object]
-    ],
+    nested: [],
     keyword: {},
-    callback: false
+    callback: true
   },
-  refSerialize: 'af4875e3efa94c7f0f11126bfe78d006'
+  refSerialize: '7ef64b66074ff86f029dd8c822e7bb30'
 }
 [handleMsg]:  {
   key: {
     remoteJid: '573207072863@s.whatsapp.net',
     fromMe: false,
-    id: '3A19263BC81C644CC9C6',
+    id: '3EB05A56BC03502D9318B4',
     participant: undefined
   },
-  messageTimestamp: 1733933211,
+  messageTimestamp: 1733988837,
   pushName: 'Fernando Jaramillo',
   broadcast: false,
   message: Message {
-    conversation: 'alo',
+    conversation: 'Mi nombre es Luis Fernando Jaramillo Aretaga,  tengo 30 años vivo en la ciudad de Pasto en calle 5a de Mijtayo. mi teléfono es +57 (320) 707-2863 y mi correo es f3rjara@gmail.com soy desarrollador Frontend. y mi cedula es 108525552222',
     messageContextInfo: MessageContextInfo {
       deviceListMetadata: [DeviceListMetadata],
       deviceListMetadataVersion: 2,
       messageSecret: [Uint8Array]
     }
   },
-  body: 'alo',
+  body: 'Mi nombre es Luis Fernando Jaramillo Aretaga,  tengo 30 años vivo en la ciudad de Pasto en calle 5a de Mijtayo. mi teléfono es +57 (320) 707-2863 y mi correo es f3rjara@gmail.com soy desarrollador Frontend. y mi cedula es 108525552222',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB039FAF475D4E6CE3817',
+    participant: undefined
+  },
+  messageTimestamp: 1733988844,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Tengo más de 5 años de experiencia en desarrollo web, enfocándome principalmente en el uso de Angular para construir aplicaciones frontend robustas y escalables. He trabajado en proyectos diversos que van desde pequeñas startups hasta grandes corporaciones, siempre aportando soluciones innovadoras y eficientes.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Tengo más de 5 años de experiencia en desarrollo web, enfocándome principalmente en el uso de Angular para construir aplicaciones frontend robustas y escalables. He trabajado en proyectos diversos que van desde pequeñas startups hasta grandes corporaciones, siempre aportando soluciones innovadoras y eficientes.',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB0D107F0D60E7C8EAC9A',
+    participant: undefined
+  },
+  messageTimestamp: 1733988851,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Título del puesto: Desarrollador Frontend Senior\n' +
+      'Nombre de la empresa: Tech Innovators Inc.\n' +
+      'Fechas de inicio y finalización: 06/2021 - 11/2023\n' +
+      'Descripción de responsabilidades:\n' +
+      'Lideré un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando Angular.\n' +
+      '\n' +
+      'Título del puesto: Desarrollador Frontend para PlayTic\n' +
+      'Nombre de la empresa: PlayTIc Inc.\n' +
+      'Fechas de inicio y finalización: 06/2024 - 11/2024\n' +
+      'Descripción de responsabilidades:\n' +
+      'Lideré Y Gestione un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando PHP.',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Título del puesto: Desarrollador Frontend Senior\n' +
+    'Nombre de la empresa: Tech Innovators Inc.\n' +
+    'Fechas de inicio y finalización: 06/2021 - 11/2023\n' +
+    'Descripción de responsabilidades:\n' +
+    'Lideré un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando Angular.\n' +
+    '\n' +
+    'Título del puesto: Desarrollador Frontend para PlayTic\n' +
+    'Nombre de la empresa: PlayTIc Inc.\n' +
+    'Fechas de inicio y finalización: 06/2024 - 11/2024\n' +
+    'Descripción de responsabilidades:\n' +
+    'Lideré Y Gestione un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando PHP.',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB093E0A84D2D48418C49',
+    participant: undefined
+  },
+  messageTimestamp: 1733988861,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'Título obtenido: Licenciatura en Ingeniería en Sistemas\n' +
+      '\n' +
+      'Nombre de la institución educativa: Universidad de Nariño\n' +
+      'Fecha de finalización: 12/2018\n' +
+      'Estado: Finalizado\n' +
+      'Título obtenido: Maestría en Ciencias de la Computación\n' +
+      '\n' +
+      'Nombre de la institución educativa: Universidad de los Andes\n' +
+      'Fecha de finalización: 06/2021\n' +
+      'Estado: Finalizado',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'Título obtenido: Licenciatura en Ingeniería en Sistemas\n' +
+    '\n' +
+    'Nombre de la institución educativa: Universidad de Nariño\n' +
+    'Fecha de finalización: 12/2018\n' +
+    'Estado: Finalizado\n' +
+    'Título obtenido: Maestría en Ciencias de la Computación\n' +
+    '\n' +
+    'Nombre de la institución educativa: Universidad de los Andes\n' +
+    'Fecha de finalización: 06/2021\n' +
+    'Estado: Finalizado',
+  from: '573207072863'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '573207072863@s.whatsapp.net',
+    fromMe: false,
+    id: '3EB061F926E2FCA3365FEE',
+    participant: undefined
+  },
+  messageTimestamp: 1733988870,
+  pushName: 'Fernando Jaramillo',
+  broadcast: false,
+  message: Message {
+    conversation: 'mis habilidades en las siguientes tres categorías:\n' +
+      '\n' +
+      'Habilidades Técnicas:\n' +
+      '\n' +
+      'Programación en Angular y TypeScript\n' +
+      'Desarrollo de aplicaciones web progresivas (PWA)\n' +
+      'Diseño y desarrollo de API RESTful con Node.js y Express\n' +
+      '\n' +
+      'Habilidades Blandas:\n' +
+      '\n' +
+      'Trabajo en equipo\n' +
+      'Comunicación efectiva\n' +
+      'Resolución de problemas\n' +
+      'Liderazgo\n' +
+      '\n' +
+      'Idiomas:\n' +
+      '\n' +
+      'Español (nativo)\n' +
+      'Inglés (fluido)\n' +
+      'Francés (intermedio)',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2,
+      messageSecret: [Uint8Array]
+    }
+  },
+  body: 'mis habilidades en las siguientes tres categorías:\n' +
+    '\n' +
+    'Habilidades Técnicas:\n' +
+    '\n' +
+    'Programación en Angular y TypeScript\n' +
+    'Desarrollo de aplicaciones web progresivas (PWA)\n' +
+    'Diseño y desarrollo de API RESTful con Node.js y Express\n' +
+    '\n' +
+    'Habilidades Blandas:\n' +
+    '\n' +
+    'Trabajo en equipo\n' +
+    'Comunicación efectiva\n' +
+    'Resolución de problemas\n' +
+    'Liderazgo\n' +
+    '\n' +
+    'Idiomas:\n' +
+    '\n' +
+    'Español (nativo)\n' +
+    'Inglés (fluido)\n' +
+    'Francés (intermedio)',
   from: '573207072863'
 }
