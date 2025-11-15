@@ -23,7 +23,7 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2",
     "mime-types": "2.1.35",
-    "mongoose": "^8.8.4",
+    "mongoose": "^8.9.5",
     "wa-sticker-formatter": "4.4.4"
   },
   "devDependencies": {
