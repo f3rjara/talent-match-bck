@@ -1,6 +1,8 @@
 const mongoose = require("mongoose");
+const AutoIncrement = require("mongoose-sequence")(mongoose);
 
 const aspirantSchema = new mongoose.Schema({
+  aspirantId: { type: Number, unique: true, },
   phoneIdentificator: { type: String },
   contactInformation: {
     name: { type: String },
@@ -29,9 +31,19 @@ const aspirantSchema = new mongoose.Schema({
   ],
   technicalSkills: { type: [String] },
   softSkills: { type: [String] },
-  languages: { type: [String] }
-}, {
-  timestamps: true,
-});
+  languages: { type: [String] },
+  vacancy: { type: Number },
+  weightedTechnicalSkills: { type: String },
+  weightedTechnicalSkillsRetro: { type: String },
+  weightedBehavioralCompetencies: { type: String },
+  weightedBehavioralCompetenciesRetro: { type: String },
+  weightedCognitiveSkills: { type: String },
+  weightedCognitiveSkillsRetro: { type: String },
+  }, {
+    timestamps: true,
+  }
+);
+
+aspirantSchema.plugin(AutoIncrement, { inc_field: "aspirantId" });
 
 module.exports = mongoose.model("Aspirant", aspirantSchema);

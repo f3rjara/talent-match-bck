@@ -1,7 +1,7 @@
 const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
 const googleAIService = require("../services/google-ai.service");
 
-let currentFlow = 'welcome';
+let vacancyId = null;
 
 // Flujo de bienvenida
 const flowBienvenida = addKeyword(EVENTS.WELCOME)
@@ -10,8 +10,11 @@ const flowBienvenida = addKeyword(EVENTS.WELCOME)
         null,
         async (ctx, ctxFn) => {
             try {
+                const inputMessage = ctx.body
+                console.log("inputMessage", inputMessage);
                 const response = await googleAIService.generateQuestion("welcome")
-                currentFlow = 'contactInformation';
+                vacancyId = Number(inputMessage.split('#')[1].split(':')[1]);
+                console.log("vacancy id", vacancyId);
                 ctxFn.flowDynamic([{ body: response }]); // Responde dinámicamente al usuario
             } catch (error) {
                 ctxFn.flowDynamic("Lo siento, no pude generar una respuesta en este momento.");
@@ -39,7 +42,11 @@ const flowContactInformation = addKeyword(["Iniciar"])
                 const userResponse  = ctx.body;
                 console.log("userResponse", userResponse );
                 console.log("ctx.from", ctx.from );
-                const response = await googleAIService.analysisResponsesInformation("contactInformation", userResponse, ctx.from); // Llama al servicio de Google AI
+                const response = await googleAIService.analysisResponsesInformation(
+                    "contactInformation",
+                    userResponse,
+                    ctx.from,
+                    vacancyId); // Llama al servicio de Google AI
                 console.log("response", response);
                 ctxFn.flowDynamic([{ body: response }]); // Responde con el texto generado
                 await ctxFn.gotoFlow(flowProfessionalSummary)

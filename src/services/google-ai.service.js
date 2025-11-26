@@ -1,6 +1,6 @@
 const googleAI = require("../config/google-ai.config");
 const model = googleAI.getGenerativeModel({ model: "gemini-1.5-flash" });
-const { questions, analysisResponses } = require("../promts");
+const { questions, analysisResponses, weightedCompetencies } = require("../promts");
 const aspirantService = require("./aspirant.service");
 
 const generateQuestion = async (
@@ -41,7 +41,8 @@ const generateQuestion = async (
 const analysisResponsesInformation = async (
   fase,
   userResponse,
-  phoneFrom
+  phoneFrom,
+  vacancyId
 ) => {
   try {
     console.log("fase", fase);
@@ -75,7 +76,7 @@ const analysisResponsesInformation = async (
     //const response = await result.response.candidates[0].content.parts[0].text;
     const cleanedJson = text.replace(/```json|```/g, "").trim();
     const jsonParsed = JSON.parse(cleanedJson)
-    await saveResponse(fase, jsonParsed.parserResponse, phoneFrom, userResponse);
+    await saveResponse(fase, { ...jsonParsed.parserResponse, vacancyId }, phoneFrom, userResponse);
 
     return jsonParsed.naturalResponse;
 
@@ -130,7 +131,8 @@ const saveResponse = async (
             education: [],
             technicalSkills: "",
             softSkills: "",
-            languages: ""
+            languages: "",
+            vacancy: parserResponse.vacancyId
           }
         )
         break;
@@ -169,4 +171,62 @@ const saveResponse = async (
   }
 };
 
-module.exports = { generateQuestion, analysisResponsesInformation };
+const calculateWeighted = async (
+  fase,
+  user,
+  vacancy
+) => {
+  try {
+    console.log("fase", fase);
+    const chat = model.startChat({
+      history: [
+        {
+          role: "user",
+          parts: [{ text: weightedCompetencies.initial }],
+        },
+        {
+          role: "user",
+          parts: [{ text: `${weightedCompetencies[fase]}` }],
+        },
+        {
+          role: "user",
+          parts: [{ text: "Únicamente responde con el formato de JSON solicitado" }],
+        }
+      ],
+    });
+    // generationConfig: {
+    //   maxOutputTokens: 200,
+    // },
+
+    const result = await chat.sendMessage(`respuestas del usuario: ${JSON.stringify(user)} detalles de convocatoria: ${JSON.stringify(vacancy)}`);
+    const responseText = result.response;
+    const text = responseText.text();
+    console.log("text>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", text);
+    //const response = await result.response.candidates[0].content.parts[0].text;
+    const cleanedJson = text.replace(/```json|```/g, "").trim();
+    const jsonParsed = JSON.parse(cleanedJson)
+    //await saveResponse(fase, { ...jsonParsed.concept, vacancyId }, phoneFrom, userResponse);
+
+    return jsonParsed;
+
+    if (response_schema) {
+      try {
+        return JSON.parse(text);
+      } catch (jsonError) {
+        console.error("Error parsing response as JSON:", jsonError);
+        console.warn("Returning raw text response instead.");
+        return text;
+      }
+    } else {
+      return text;
+    }
+  } catch (error) {
+    console.error(
+      "Error generating response from Google Generative AI:",
+      error
+    );
+    throw new Error("Failed to generate text");
+  }
+};
+
+module.exports = { generateQuestion, analysisResponsesInformation, calculateWeighted};

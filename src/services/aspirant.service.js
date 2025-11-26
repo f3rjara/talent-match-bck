@@ -18,7 +18,13 @@ const update = async (id, aspirantData) => {
 };
 
 const deleteEntity = async (id) => {
-  return await User.findByIdAndDelete(id);
+  return await Aspirant.findByIdAndDelete(id);
+};
+
+const getByProperty = async (property, value) => {
+  const query = {};
+  query[property] = value;
+  return await Aspirant.find(query);
 };
 
 module.exports = {
@@ -27,4 +33,5 @@ module.exports = {
   getById,
   update,
   deleteEntity,
+  getByProperty
 };

@@ -1,15 +1,15 @@
 [
   {
-    "ref": "f584c1ea-5729-405d-be1b-24ac5338ce75",
-    "keyword": "421c08502de3f64f6fcc55335d14cd51",
-    "answer": "hi",
+    "ref": "755687a2-7109-4034-94a8-5868e152fcaa",
+    "keyword": "57dcc8ff5fc4e3fa2bd12792f68165f1",
+    "answer": "Hola ✌️😊,\n\nMe gustaría crear mi currículum con su ayuda y postularme para la oferta laboral disponible para: *Enfermeros* 💻✨.\n\n************************\n#vacante:7#",
     "options": {},
     "from": "573207072863",
-    "refSerialize": "b9f08dbc00040d9b893d083665163cb0"
+    "refSerialize": "b09c5d61d90019d052ae4068d479e874"
   },
   {
-    "ref": "ans_8877eb28-1194-4372-9b1f-4dcd0f7e4dd2",
-    "keyword": "key_31dca62f-6865-48f9-ba8c-80b5684d7c04",
+    "ref": "ans_b5ce16ed-cab1-44cd-b606-409bc2b359b7",
+    "keyword": "key_0b5ed09d-7a03-4a7d-b5b9-e8161c833ed3",
     "answer": "👋",
     "options": {
       "media": null,
@@ -23,13 +23,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "a35188ce2f9cdd7ccca738f76e597dde",
+    "refSerialize": "bc344687724896b8b86090212cb67b4a",
     "from": "573207072863"
   },
   {
-    "ref": "e2977efd-9a1f-43ee-a97f-f02004e2039f",
+    "ref": "0da524fe-bd5c-4194-90ff-02718bc00b32",
     "keyword": null,
-    "answer": "Estimado(a) candidato(a), bienvenido(a) al proceso de selección para el cargo de [Nombre del Cargo] en [Nombre de la Empresa].  Para comenzar, por favor escribe la palabra 'Iniciar'.",
+    "answer": "Bienvenido al proceso de selección de Empresa X.  Para comenzar, por favor escribe la palabra 'Iniciar'.",
     "options": {
       "media": null,
       "buttons": [],
@@ -37,19 +37,19 @@
       "delay": 0
     },
     "from": "573207072863",
-    "refSerialize": "3d651f3a2bf62832b8ff45add301c6df"
+    "refSerialize": "2fa2019473a28f19c81c88545542da0e"
   },
   {
-    "ref": "4fe4e38b-b88d-41d7-b755-7ddcb6407f94",
-    "keyword": "a35188ce2f9cdd7ccca738f76e597dde",
+    "ref": "696cd6f2-eb18-49d7-af46-afa2bc7b82f1",
+    "keyword": "bc344687724896b8b86090212cb67b4a",
     "answer": "iniciar",
     "options": {},
     "from": "573207072863",
     "refSerialize": "00a56bef788d4faa58d3fa87e7f912c6"
   },
   {
-    "ref": "ans_702ac5e7-1d93-4e68-bae7-88f1460156cb",
-    "keyword": "key_9fe91c06-f3a8-4ff2-9bb7-5b7f2a7c7b65",
+    "ref": "ans_986acb1d-64a4-4642-8075-fc13915d5500",
+    "keyword": "key_3229fbff-efc0-47ea-b52e-ae5ed1b30c50",
     "answer": "¡Perfecto! Vamos a comenzar con la creación de tu CV.",
     "options": {
       "media": null,
@@ -63,12 +63,12 @@
       "keyword": {},
       "callback": false
     },
-    "refSerialize": "ed8cac3c251b7b6e4647f1b97db938eb",
+    "refSerialize": "ecda9036bb26ac17172469d79a8dafe7",
     "from": "573207072863"
   },
   {
-    "ref": "ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d",
-    "keyword": "ans_702ac5e7-1d93-4e68-bae7-88f1460156cb",
+    "ref": "ans_81e86329-d6d6-49b6-bf23-81d3fcc6b9f6",
+    "keyword": "ans_986acb1d-64a4-4642-8075-fc13915d5500",
     "answer": "__call_action__",
     "options": {
       "media": null,
@@ -82,12 +82,12 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "2541a901c1608d751f7e6db4f9f4fc71",
+    "refSerialize": "97a73f96869fac78aaf8e86472bce775",
     "from": "573207072863"
   },
   {
-    "ref": "ans_11a4d984-152d-4b75-9b31-616177e32015",
-    "keyword": "ans_b1f69846-9ac5-4ceb-ab45-27e9256bc39d",
+    "ref": "ans_9c8bc343-09d9-4bf6-bd57-3ae836b7570e",
+    "keyword": "ans_81e86329-d6d6-49b6-bf23-81d3fcc6b9f6",
     "answer": "__capture_only_intended__",
     "options": {
       "media": null,
@@ -101,13 +101,13 @@
       "keyword": {},
       "callback": true
     },
-    "refSerialize": "7ef64b66074ff86f029dd8c822e7bb30",
+    "refSerialize": "fa8d6b16c8c3f82ddbd523b7069ef88e",
     "from": "573207072863"
   },
   {
-    "ref": "df3541a0-42a4-48b9-a1f2-339222cba853",
+    "ref": "2847975c-e858-40dd-993b-c4a16caa8571",
     "keyword": null,
-    "answer": "Estimado(a) candidato(a), para continuar con su proceso de selección en Empresa X, por favor, proporcione la siguiente información.  Todos los campos son obligatorios:\n\n* **Nombres completos:**\n* **Apellidos completos:**\n* **Dirección de residencia:**\n* **Teléfono celular o WhatsApp:**\n* **Correo electrónico:**\n* **Número de documento de identidad (Cédula de ciudadanía colombiana):**\n\nUna vez que nos proporcione esta información, procederemos con el siguiente paso del proceso. Gracias por su colaboración.",
+    "answer": "Estimado(a) candidato(a), bienvenido(a) al proceso de selección de Empresa X. Para continuar, por favor, proporcione la siguiente información completa y precisa. Todos los campos son obligatorios:\n\n* Nombres completos:\n* Apellidos completos:\n* Dirección de residencia completa:\n* Teléfono celular o WhatsApp:\n* Correo electrónico:\n* Número de documento de identidad (Cédula de ciudadanía colombiana):\n\nUna vez que haya ingresado todos los datos, le indicaremos el siguiente paso.  Gracias por su colaboración.",
     "options": {
       "media": null,
       "buttons": [],
@@ -115,391 +115,6 @@
       "delay": 0
     },
     "from": "573207072863",
-    "refSerialize": "7a51c96a05065ad053e31aba1a401b17"
-  },
-  {
-    "ref": "49028359-0a99-4db8-a2b9-30551181da9a",
-    "keyword": "7ef64b66074ff86f029dd8c822e7bb30",
-    "answer": "Mi nombre es Luis Fernando Jaramillo Aretaga,  tengo 30 años vivo en la ciudad de Pasto en calle 5a de Mijtayo. mi teléfono es +57 (320) 707-2863 y mi correo es f3rjara@gmail.com soy desarrollador Frontend. y mi cedula es 108525552222",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "de559e2797f5f51e8ad4572848c97445"
-  },
-  {
-    "ref": "ans_6cc8a09f-8c8e-4c45-9a55-34c60beed28a",
-    "keyword": "key_67fa567c-9170-424c-8e69-23dfd9981d51",
-    "answer": "¡Perfecto! Vamos a continuar con una pequeña presentación.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "72739d33c75dfaeb24c037d796e4fdd9",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_924e6f9b-c0a8-4733-84ce-921986b888aa",
-    "keyword": "ans_6cc8a09f-8c8e-4c45-9a55-34c60beed28a",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "07783eaddb98fd9b702f7b4970ca33be",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_d4869f51-849b-45da-8d60-e6445b415866",
-    "keyword": "ans_924e6f9b-c0a8-4733-84ce-921986b888aa",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "e9ed3f9a2113a2e88a64837c0ea6c406",
-    "from": "573207072863"
-  },
-  {
-    "ref": "cef2d4ea-c22f-420f-8fba-cdb015273b12",
-    "keyword": null,
-    "answer": "Estimado Luis Fernando, gracias por tu información.  Para confirmar, he registrado tus datos. Si hay alguna modificación por favor házmelo saber.  Continuemos con el proceso.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "47e415db695f4a8c7eac44e4fdfdab03"
-  },
-  {
-    "ref": "c90a5a59-96e3-455c-9c50-1bb298dff449",
-    "keyword": null,
-    "answer": "Hola [Nombre del candidato], bienvenido al proceso de selección de Empresa X. Para comenzar, por favor, comparte un resumen profesional con nosotros.  Describe brevemente tu experiencia laboral, habilidades más relevantes y algunos de tus logros más destacados.  Esto nos ayudará a conocerte mejor.  No te preocupes, puedes ser conciso.  Estamos aquí para ayudarte en todo el proceso.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "9ce3ffba57ad0cc3dd5a66ed5f4c53e9"
-  },
-  {
-    "ref": "a0543c69-1354-418b-9e85-11e61df24062",
-    "keyword": "e9ed3f9a2113a2e88a64837c0ea6c406",
-    "answer": "Tengo más de 5 años de experiencia en desarrollo web, enfocándome principalmente en el uso de Angular para construir aplicaciones frontend robustas y escalables. He trabajado en proyectos diversos que van desde pequeñas startups hasta grandes corporaciones, siempre aportando soluciones innovadoras y eficientes.",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "468ebddbaf30fa8b66472de96683c832"
-  },
-  {
-    "ref": "ea28086d-0c0f-4f09-a8a7-91d0d620b2d7",
-    "keyword": null,
-    "answer": "Gracias por tu respuesta.  Tu experiencia en desarrollo web con Angular es muy valiosa.  Revisaré con detalle tu perfil y te contactaré pronto para avanzar en el proceso.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "10eb0c79b53cc6e53f85b8b2d598c838"
-  },
-  {
-    "ref": "ans_ef7cc4b6-34de-4a79-a181-b5fbda3da19b",
-    "keyword": "key_3ae3140b-a1c9-4a81-89e6-ae2195213dea",
-    "answer": "¡Perfecto! Vamos a continuar con tu experiencia.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "4b84ef15b4ee7e978c5cff7030f7dd9d",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_87f60ebb-b0a3-459e-bf88-a27d0a836bb7",
-    "keyword": "ans_ef7cc4b6-34de-4a79-a181-b5fbda3da19b",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "4d3acde918b88c223a926b4b3d73527c",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_ab6fc6fa-53f3-4533-b65f-8ab9399313be",
-    "keyword": "ans_87f60ebb-b0a3-459e-bf88-a27d0a836bb7",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "0881623fe848c0c7ce36333744f72635",
-    "from": "573207072863"
-  },
-  {
-    "ref": "df3d863f-84e9-4fc9-ab9d-a2e6f1c1fc13",
-    "keyword": null,
-    "answer": "Hola [Nombre del candidato], bienvenido.  Para completar tu solicitud, necesitamos información sobre tu experiencia laboral.  Por favor, comienza proporcionando los datos de tu último empleo. Necesito lo siguiente:\n\n1. **Título del puesto:** (ej. Gerente de Marketing)\n2. **Nombre de la empresa:** (ej. Empresa Alfa S.A.)\n3. **Fechas de inicio y finalización:** (ej. 01/01/2020 - 31/12/2022)\n4. **Descripción de responsabilidades:** (ej.  Gestionar el presupuesto de marketing, dirigir equipo de 5 personas, etc.)\n5. **Logros:** (ej. Aumento del 15% en las ventas, lanzamiento exitoso de nueva campaña, etc.)\n\nUna vez que me proporciones esta información, procederemos con el siguiente paso.  No dudes en preguntarme si tienes alguna duda.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "d3eaa45f217a466036940d5a5dcaa4f1"
-  },
-  {
-    "ref": "24c15dd2-f4da-407d-af73-85cf4b6b2fa1",
-    "keyword": "0881623fe848c0c7ce36333744f72635",
-    "answer": "Título del puesto: Desarrollador Frontend Senior\nNombre de la empresa: Tech Innovators Inc.\nFechas de inicio y finalización: 06/2021 - 11/2023\nDescripción de responsabilidades:\nLideré un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando Angular.\n\nTítulo del puesto: Desarrollador Frontend para PlayTic\nNombre de la empresa: PlayTIc Inc.\nFechas de inicio y finalización: 06/2024 - 11/2024\nDescripción de responsabilidades:\nLideré Y Gestione un equipo de desarrollo frontend para diseñar, implementar y mantener aplicaciones web utilizando PHP.",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "421c08502de3f64f6fcc55335d14cd51"
-  },
-  {
-    "ref": "ans_0a233a9f-1ccb-454c-b0e3-14cfa4e0755d",
-    "keyword": "key_5f929ab8-bf77-4257-b867-01dd95a0e5c3",
-    "answer": "¡Perfecto! Vamos a continuar con tu formación académica.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "883bad501afc6234fae9a74520e67b60",
-    "from": "573207072863"
-  },
-  {
-    "ref": "03510126-c318-4dd4-a153-68025ffe18aa",
-    "keyword": null,
-    "answer": "Estimado(a) [Nombre del candidato], gracias por la información proporcionada.  He revisado cuidadosamente sus respuestas y para asegurarme de que comprendo correctamente su experiencia, la he organizado de la siguiente manera. Por favor, revísela y confirme si es correcta. Si hay alguna modificación o adición, por favor hágamelo saber.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "99f77f4c31ac406ff169094d68692be4"
-  },
-  {
-    "ref": "ans_236fb681-b619-41be-8ce7-6a99600b243b",
-    "keyword": "ans_0a233a9f-1ccb-454c-b0e3-14cfa4e0755d",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "2895120053b48f815ab83a52f41587fd",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_e12b4002-e4be-4f9c-af82-c2c488c1f205",
-    "keyword": "ans_236fb681-b619-41be-8ce7-6a99600b243b",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "689d7fac820738c3e1af1db0be799ac5",
-    "from": "573207072863"
-  },
-  {
-    "ref": "a466417d-b379-4e7f-9e32-1d5178fda2d5",
-    "keyword": null,
-    "answer": "Hola [Nombre del candidato], bienvenido.  Para continuar con tu registro, por favor, proporciona la siguiente información sobre tu educación.  Necesitaré el Título obtenido, el Nombre de la institución educativa donde lo cursaste, las Fechas de finalización (mes/año) y el Estado (finalizado o en curso).  Puedes responder en este mismo formato: Título: [Título], Institución: [Nombre de la institución], Fechas: [Mes/Año inicio] - [Mes/Año fin], Estado: [Finalizado/En curso].  Si tienes más de un título, por favor, proporciona la información de cada uno por separado.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "a3a90a4594151daf5d4675f732b07ef0"
-  },
-  {
-    "ref": "9b3fe27f-d318-4323-8096-043c3e066bd8",
-    "keyword": "689d7fac820738c3e1af1db0be799ac5",
-    "answer": "Título obtenido: Licenciatura en Ingeniería en Sistemas\n\nNombre de la institución educativa: Universidad de Nariño\nFecha de finalización: 12/2018\nEstado: Finalizado\nTítulo obtenido: Maestría en Ciencias de la Computación\n\nNombre de la institución educativa: Universidad de los Andes\nFecha de finalización: 06/2021\nEstado: Finalizado",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "03515ce19a06b67d65323a9ac6e7c066"
-  },
-  {
-    "ref": "e61b9524-be6e-4141-bbd0-a56046214067",
-    "keyword": null,
-    "answer": "Gracias por la información proporcionada sobre su educación.  He registrado sus datos académicos en nuestro sistema. Si requiere alguna aclaración, no dude en consultarme.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "38cb65a946e2c2bb69be5e969409fb86"
-  },
-  {
-    "ref": "ans_8b685a13-6748-4c79-bba5-4552e0b72cc4",
-    "keyword": "key_574fb77a-73df-450f-8c94-4e4394b3c3ea",
-    "answer": "¡Perfecto! Vamos a continuar con tus habilidades.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": false
-    },
-    "refSerialize": "635656dad9f59f2074fb1a9399f64938",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_65c8eba1-0d7a-43ec-b4d4-18224b23eaa5",
-    "keyword": "ans_8b685a13-6748-4c79-bba5-4552e0b72cc4",
-    "answer": "__call_action__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "66d28e1f724f7d2659e6412fedcf008e",
-    "from": "573207072863"
-  },
-  {
-    "ref": "ans_80450862-804f-4a3a-bed4-6f0295c022de",
-    "keyword": "ans_65c8eba1-0d7a-43ec-b4d4-18224b23eaa5",
-    "answer": "__capture_only_intended__",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": true,
-      "child": null,
-      "delay": 0,
-      "idle": null,
-      "ref": null,
-      "nested": [],
-      "keyword": {},
-      "callback": true
-    },
-    "refSerialize": "5d0927b3dfd8d6ee8bc4ba845dd26845",
-    "from": "573207072863"
-  },
-  {
-    "ref": "dfa3c842-47e8-4559-b6d6-e9676e7351f4",
-    "keyword": null,
-    "answer": "Hola [Nombre del candidato], bienvenido. Para continuar con tu proceso de selección, necesito que me proporciones información sobre tus habilidades. Por favor, indica las siguientes tres áreas:\n\n1. **Habilidades técnicas:**  (ej. Programación en Java, Análisis de datos, Diseño gráfico, etc.)\n2. **Habilidades blandas:** (ej. Trabajo en equipo, Comunicación efectiva, Resolución de problemas, etc.)\n3. **Idiomas:** (ej. Inglés (nivel avanzado), Español (nativo), Francés (intermedio), etc. Indica el idioma y tu nivel de dominio).",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "487fc900d8c851b185367e5fcd3475a4"
-  },
-  {
-    "ref": "c2692be2-2b4f-4189-ab19-d63d434fa78f",
-    "keyword": "5d0927b3dfd8d6ee8bc4ba845dd26845",
-    "answer": "mis habilidades en las siguientes tres categorías:\n\nHabilidades Técnicas:\n\nProgramación en Angular y TypeScript\nDesarrollo de aplicaciones web progresivas (PWA)\nDiseño y desarrollo de API RESTful con Node.js y Express\n\nHabilidades Blandas:\n\nTrabajo en equipo\nComunicación efectiva\nResolución de problemas\nLiderazgo\n\nIdiomas:\n\nEspañol (nativo)\nInglés (fluido)\nFrancés (intermedio)",
-    "options": {},
-    "from": "573207072863",
-    "refSerialize": "0cbcb67110c7b1d7128144b222c5e551"
-  },
-  {
-    "ref": "bd16a64a-bb50-45fb-aaa7-64ce0ef516ac",
-    "keyword": null,
-    "answer": "Gracias por tu respuesta. Tu información ha sido recibida y se encuentra siendo procesada.  Continuaremos con el proceso de selección.",
-    "options": {
-      "media": null,
-      "buttons": [],
-      "capture": false,
-      "delay": 0
-    },
-    "from": "573207072863",
-    "refSerialize": "ba2cdb0644851efea0f6effa4fef82e1"
+    "refSerialize": "3218fc81e34d50c0128373fbdcb3d764"
   }
 ]

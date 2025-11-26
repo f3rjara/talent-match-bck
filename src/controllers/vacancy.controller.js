@@ -20,7 +20,8 @@ const getAll = async (req, res) => {
 
 const getById = async (req, res) => {
   try {
-    const vacancy = await vacancyService.getById(req.params.id);
+    console.log("getByid", req.params.id);
+    const vacancy = await vacancyService.getByIdWithAspirants(req.params.id);
     if (!vacancy) {
       return res.status(404).json({ message: "vacancy not found" });
     }
